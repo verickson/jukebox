@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jukebox</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="site.css">
+  </head>
+  <body>
+    <!-- display block for content -->
+    <div id="playlist">
+    </div>
+    <br>
+    <br>
+    <div class="" id="audio">
+    </div>
+
+    <div class="">
+      <!--  create your own buttons to use instead of the others-->
+      <button type="button" name="button" id="PrevBtn">
+        <span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
+      </button>
+
+      <button type="button" name="button" id="PlayBtn">
+        <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+      </button>
+      <button type="button" name="button" id="PauseBtn">
+        <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+      </button>
+      <button type="button" name="button" id="StopBtn">
+        <span class="glyphicon glyphicon-stop" aria-hidden="true"></span>
+      </button>
+
+      <button type="button" name="button" id="NextBtn">
+        <span class="glyphicon glyphicon-forward" aria-hidden="true"></span>
+      </button>
+
+      <!-- extra buttons -->
+      <!-- <button type="button" name="button" id="RanBtn" class="pull-right">
+        <span class="glyphicon glyphicon-random" aria-hidden="true"></span>
+      </button>
+      <button type="button" name="button" id="ShuffBtn" class="pull-right">
+        <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+      </button> -->
+
+      <br>
+      <br>
+      <label for="">Song Name</label>
+      <input type="text" name="" value="" id="Name">
+      <br>
+      <label for="">Author</label>
+      <input type="text" name="" value="" id="Author">
+      <br>
+      <label for="">Genre</label>
+      <input type="text" name="" value="" id="Genre">
+      <br>
+      <input id="Upload" type="file" name="" value="Upload Song">
+    </div>
+
+      <!-- jQuery -->
+        <script
+              src="https://code.jquery.com/jquery-3.2.1.js"
+              integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+              crossorigin="anonymous"></script>
+      <!-- other js -->
+      <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+      </script>
+
+      <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
